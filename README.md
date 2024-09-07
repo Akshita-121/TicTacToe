@@ -3,6 +3,8 @@
 
 Tic-Tac-Toe is a very popular paper-and-pencil game in a 3x3 grid for two players. The player who makes the first three of their marks in a diagonal, vertical, or horizontal row wins the game.
 
+![image](https://github.com/user-attachments/assets/17fcd61c-ef6f-4090-9004-2006d555d71d)
+
 # Implementation of the game using FSM concept
 
 The Tic-Tac-Toe game is implemented using a Moore FSM, with four states:
@@ -30,6 +32,9 @@ Inputs to the controller are:
 
 6.Win: If 0, no winner found yet, hence keep playing till no_space=1. If 1, then winner found,hence game over.
 
+## FSM Controller for Tic Tac Toe 
+![FSM controller](https://github.com/user-attachments/assets/3d536f8d-ff41-4a7e-8b3d-690101d70057)
+
 ## Modules used in the Verilog code
 
 1.Position_registers: To store player or PC position when enaling by FSM controller
@@ -43,3 +48,7 @@ Inputs to the controller are:
 5.No_space_detector: To detect if there are places left to play or not.
 
 6.FSM_controller: Controls how player and computer plays the game
+
+## Schematic Model
+![tic](https://github.com/user-attachments/assets/57d39d0d-4b13-4e8d-b919-3520873d30cf)
+
